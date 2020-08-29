@@ -10,3 +10,9 @@ py -m pip
 
 pip install --upgrade pip
 pip install -U pip
+
+## 実行
+py -m django-admin startproject プロジェクト名
+
+cd プロジェクト名
+py manage.py runserver
